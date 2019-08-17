@@ -1,0 +1,50 @@
+$ cd Desktop
+
+Mynu Ahamed Shaik@DESKTOP-5T97T8V MINGW64 ~/Desktop
+$ cd gits
+
+Mynu Ahamed Shaik@DESKTOP-5T97T8V MINGW64 ~/Desktop/gits
+$ git clone https://github.com/Mynu-coursera/datasciencecoursera.git
+Cloning into 'datasciencecoursera'...
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 7 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (7/7), done.
+
+Mynu Ahamed Shaik@DESKTOP-5T97T8V MINGW64 ~/Desktop/gits
+$ ls
+datasciencecoursera/
+
+Mynu Ahamed Shaik@DESKTOP-5T97T8V MINGW64 ~/Desktop/gits
+$ cd datasciencecoursera/
+
+Mynu Ahamed Shaik@DESKTOP-5T97T8V MINGW64 ~/Desktop/gits/datasciencecoursera (master)
+$ ls
+README.md
+
+Mynu Ahamed Shaik@DESKTOP-5T97T8V MINGW64 ~/Desktop/gits/datasciencecoursera (master)
+$ ls
+Helloworld.md  README.md
+
+Mynu Ahamed Shaik@DESKTOP-5T97T8V MINGW64 ~/Desktop/gits/datasciencecoursera (master)
+$ git add Helloworld.md
+
+Mynu Ahamed Shaik@DESKTOP-5T97T8V MINGW64 ~/Desktop/gits/datasciencecoursera (master)
+$ git commit -m "Added Hellowrld.md file"
+[master 2c2d4ac] Added Hellowrld.md file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Helloworld.md
+
+Mynu Ahamed Shaik@DESKTOP-5T97T8V MINGW64 ~/Desktop/gits/datasciencecoursera (master)
+$ git push origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 318 bytes | 318.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/Mynu-coursera/datasciencecoursera.git
+   7259dfd..2c2d4ac  master -> master
+
+Mynu Ahamed Shaik@DESKTOP-5T97T8V MINGW64 ~/Desktop/gits/datascie
